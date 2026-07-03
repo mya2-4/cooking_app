@@ -10,3 +10,4 @@ Route::get('/post/{id}',[PostController::class,'show']);
 Route::get('/',function() {
   return view('posts.index',compact('post'));
 });
+Route::get('/home',[PostController::class,'home']);

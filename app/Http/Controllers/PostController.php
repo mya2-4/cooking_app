@@ -20,7 +20,7 @@ class PostController extends Controller {
         return $post;
     }
 
-    public function index() {
+    public function mylog() {
     $posts=Post::all();
     return view('post.index', compact('posts'));
 }
@@ -43,5 +43,9 @@ class PostController extends Controller {
         $post=Post::findOrFail($id);
         $post->delete();
         return $post;
+    }
+
+    public function home() {
+        return view('post.home');
     }
 }

@@ -22,7 +22,7 @@ Laravel 学習の一環として作成したアプリです。
 -   Laravel 13
 -   PHP 8
 -   MySQL
--   HTML
+-   HTML・css
 -   Tailwind
 
 ---

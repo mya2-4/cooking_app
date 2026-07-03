@@ -1,6 +1,2 @@
-body {
-    background: hotpink !important;
-}
-.logo {
-    text-align: center;
-}
+@import "tailwindcss";
+@import "./home.css";
