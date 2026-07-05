@@ -11,7 +11,8 @@
     
 </html>
 <body class="flex flex-col items-center">
-    <div class="logo font-bold pt-30 text-4xl">logo</div>
+    <div class="bg-[#8C8C8C] w-15 h-15 rounded-full  absolute left-10 top-10"></div>
+    <div class="logo mt-28.5 w-37.5 h-17.5 bg-[#8C8C8C]"></div>
     
     <div class="mt-20 grid gap-10 w-82.5 h-60">
         <button class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
