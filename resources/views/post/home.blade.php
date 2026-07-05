@@ -10,12 +10,11 @@
 
     
 </html>
-<body>
-    <div class="logo font-bold pt-30 text-4xl flex justify-center">logo</div>
+<body class="flex flex-col items-center">
+    <div class="logo font-bold pt-30 text-4xl">logo</div>
     
-    <div class="mt-20 flex flex-col items-center gap-10">
-
-        <button class="flex justify-center rounded-[20px] w-[330px] h-[100px] bg-[#FA897B] text-white">
+    <div class="mt-20 grid gap-10 w-82.5 h-60">
+        <button class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
             <div class="w-1/2 flex justify-center items-center">
                 <span class="font-bold text-2xl">マイレシピ</span>
             </div>
@@ -25,7 +24,7 @@
             </div>
         </button>
 
-        <button class="flex justify-center rounded-[20px] w-[330px] h-[100px] bg-[#FA897B] text-white">
+        <button class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
             <div class="w-1/2 flex justify-center items-center">
                 <span class="font-bold text-2xl">マイログ</span>
             </div>
@@ -34,6 +33,29 @@
                 <span class="font-bold text-base">logs</span>
             </div>
         </button>
-
     </div>
+
+    <div class="w-95 h-92.5 mt-17 relative">
+        <p class="text-[#8C8C8C] text-[30px] font-bold">今日のご飯</p>
+        <div class="absolute bottom-0 left-0 right-0 overflow-x-auto">
+            <div class="flex gap-10 w-max px-4">
+                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
+                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
+                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-95 h-92.5 mt-16 relative">
+        <p class="text-[#8C8C8C] text-[30px] font-bold">最近</p>
+        <div class="absolute bottom-0 left-0 right-0 overflow-x-auto">
+            <div class="flex gap-10 w-max px-4">
+                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
+                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
+                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
+            </div>
+        </div>
+    </div>
+
+    
 </body>
