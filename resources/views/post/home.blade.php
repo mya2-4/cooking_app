@@ -11,8 +11,8 @@
     
 </html>
 <body class="flex flex-col items-center">
-    <div class="bg-[#8C8C8C] w-15 h-15 rounded-full  absolute left-10 top-10"></div>
-    <div class="logo mt-28.5 w-37.5 h-17.5 bg-[#8C8C8C]"></div>
+    <div class="bg-[#D7D7D7] w-15 h-15 rounded-full  absolute left-10 top-10"></div>
+    <div class="logo mt-28.5 w-37.5 h-17.5 bg-[#D7D7D7]"></div>
     
     <div class="mt-20 grid gap-10 w-82.5 h-60">
         <button class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
@@ -40,9 +40,9 @@
         <p class="text-[#8C8C8C] text-[30px] font-bold">今日のご飯</p>
         <div class="absolute bottom-0 left-0 right-0 overflow-x-auto">
             <div class="flex gap-10 w-max px-4">
-                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
-                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
-                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
+                <div class="w-75 h-75 bg-[#D7D7D7]"></div>
+                <div class="w-75 h-75 bg-[#D7D7D7]"></div>
+                <div class="w-75 h-75 bg-[#D7D7D7]"></div>
             </div>
         </div>
     </div>
@@ -51,9 +51,9 @@
         <p class="text-[#8C8C8C] text-[30px] font-bold">最近</p>
         <div class="absolute bottom-0 left-0 right-0 overflow-x-auto">
             <div class="flex gap-10 w-max px-4">
-                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
-                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
-                <div class="w-75 h-75 bg-[#8C8C8C]"></div>
+                <div class="w-75 h-75 bg-[#D7D7D7]"></div>
+                <div class="w-75 h-75 bg-[#D7D7D7]"></div>
+                <div class="w-75 h-75 bg-[#D7D7D7]"></div>
             </div>
         </div>
     </div>

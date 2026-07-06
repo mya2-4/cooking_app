@@ -48,4 +48,8 @@ class PostController extends Controller {
     public function home() {
         return view('post.home');
     }
+    
+    public function login() {
+        return view('post.login');
+    }
 }

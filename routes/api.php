@@ -11,3 +11,4 @@ Route::get('/',function() {
   return view('posts.index',compact('post'));
 });
 Route::get('/home',[PostController::class,'home']);
+Route::get('/login',[PostController::class,'login']);
