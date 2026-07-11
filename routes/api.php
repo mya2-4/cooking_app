@@ -12,3 +12,4 @@ Route::get('/',function() {
 });
 Route::get('/home',[PostController::class,'home']);
 Route::get('/login',[PostController::class,'login']);
+Route::get('/register',[PostController::class,'register']);

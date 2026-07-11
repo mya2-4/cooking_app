@@ -52,4 +52,8 @@ class PostController extends Controller {
     public function login() {
         return view('post.login');
     }
+
+    public function register() {
+        return view('post.register');
+    }
 }
