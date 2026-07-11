@@ -8,13 +8,15 @@
         @vite('resources/css/index.css')
     </head>
 
-<body>
+<body class="overflow-hidden">
   <div class="flex flex-col items-center">
-    <div class="text-4xl font-bold mt-35">Hello!!</div>
-    <div class="text-xl font-bold mt-27.25">ログイン</div>
-    <input type="text" placeholder="IDまたはメールアドレスを入力" class="w-92.5 h-15 border rounded-[10px] mt-20">
-    <input type="password" placeholder="パスワードを入力" class="w-92.5 h-15 border rounded-[10px] mt-[56.5px]">
-    <button class="w-50 h-12.5 bg-[#86E3CE] rounded-[30px] text-xl mt-22.25">続ける</button>
+    <div class="z-20 text-4xl font-bold mt-20">Hello!!</div>
+    <div class="absolute -top-32 -right-40 w-100 h-80 bg-[#FFDD94] rounded-[50px] rotate-25"></div>
+    <div class="absolute -bottom-35 -left-35 w-100 h-100 bg-[#CCABD8] rounded-full -z-10"></div>
+    <div class="text-xl font-bold mt-20">ログイン</div>
+    <input type="text" placeholder="IDまたはメールアドレスを入力" class="w-92.5 h-15 border rounded-[10px] mt-20 pl-5">
+    <input type="password" placeholder="パスワードを入力" class="w-92.5 h-15 border rounded-[10px] mt-[56.5px] pl-5">
+    <button class="w-50 h-12.5 text-[#8C8C8C] bg-[#86E3CE] rounded-[30px] text-xl mt-22.25">続ける</button>
     <p class="text-base text-[#8C8C8C] underline mt-16.5">パスワードをお忘れですか？</p>
     <p class="text-base text-[#8C8C8C] underline mt-5">新規登録はこちら</p>
   </div>
