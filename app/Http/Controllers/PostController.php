@@ -34,6 +34,10 @@ class PostController extends Controller {
         return view('post.myrecipe');
     }
 
+    public function changepassword() {
+        return view('post.changepassword');
+    }
+
     // ボタン機能
     
     }

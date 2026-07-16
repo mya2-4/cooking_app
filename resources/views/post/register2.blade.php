@@ -16,7 +16,7 @@
     <div class="text-xl font-bold mt-20">新規登録</div>
     <div class="w-50 h-50 bg-[#D9D9D9] rounded-full mt-14.25"></div>
     <input type="text" placeholder="ユーザー名を入力してください" class="font-bold w-92.5 h-15 border border-[#717171] rounded-[10px] mt-10 bg-white pl-5">
-    <a href="/api/home" class="flex items-center justify-center w-50 h-12.5 text-[#8C8C8C] bg-[#86E3CE] rounded-[30px] text-xl mt-20 font-bold">始める</a>
+    <a href="/" class="flex items-center justify-center w-50 h-12.5 text-[#8C8C8C] bg-[#86E3CE] rounded-[30px] text-xl mt-20 font-bold">始める</a>
   </div>
 </body>
 </html>

@@ -15,7 +15,7 @@
     <div class="logo mt-28.5 w-37.5 h-17.5 bg-[#D7D7D7]"></div>
     
     <div class="mt-20 grid gap-10 w-82.5 h-60">
-        <button class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
+        <a href="/myrecipe" class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
             <div class="w-1/2 flex justify-center items-center">
                 <span class="font-bold text-2xl">マイレシピ</span>
             </div>
@@ -23,7 +23,7 @@
                 <span class="countrecipies font-bold text-base">fff</span>
                 <span class="font-bold text-base">recipies</span>
             </div>
-        </button>
+        </a>
 
         <button class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
             <div class="w-1/2 flex justify-center items-center">

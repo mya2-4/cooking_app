@@ -2,6 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
-use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
 
-Route::get('/',[PostController::class,'index']);
+Route::get('/', [PostController::class, 'home']);
+
+Route::get('/login', [PostController::class, 'login']);
+Route::get('/register', [PostController::class, 'register']);
+Route::get('/welcomeback', [PostController::class, 'welcomeback']);
+Route::get('/register2', [PostController::class, 'register2']);
+Route::get('/nicetomeetyou', [PostController::class, 'nicetomeetyou']);
+Route::get('/myrecipe', [PostController::class, 'myrecipe']);
+Route::get('/changepassword', [PostController::class, 'changepassword']);

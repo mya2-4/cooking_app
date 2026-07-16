@@ -10,7 +10,7 @@
 
 <body class="overflow-hidden">
   <div class="flex flex-col items-center">
-    <div class="z-20 text-4xl font-bold mt-20">Nice to meet!!</div>
+    <div class="z-20 text-4xl font-bold mt-20">Nice to meet you!!</div>
     <div class="absolute -top-32 -right-40 w-100 h-80 bg-[#FFDD94] rounded-[50px] rotate-25"></div>
     <div class="absolute -bottom-35 -left-40 w-100 h-100 bg-[#CCABD8] rounded-full -z-10"></div>
     <div class="w-50 h-50 bg-[#D9D9D9] rounded-full mt-41.25"></div>

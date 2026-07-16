@@ -14,9 +14,9 @@
     <div class="absolute -top-32 -right-40 w-100 h-80 bg-[#FFDD94] rounded-[50px] rotate-25"></div>
     <div class="absolute -bottom-35 -left-40 w-100 h-100 bg-[#CCABD8] rounded-full -z-10"></div>
     <div class="text-xl font-bold mt-20">ログイン</div>
-    <input type="text" placeholder="IDまたはメールアドレスを入力" class="border border-[#717171] font-bold w-92.5 h-15 rounded-[10px] mt-20 pl-5">
+    <input type="text" placeholder="IDまたはメールアドレスを入力" class="border border-[#717171] font-bold w-92.5 h-15 rounded-[10px] mt-10 pl-5">
     <input type="password" placeholder="パスワードを入力" class="w-92.5 h-15 border border-[#717171] font-bold rounded-[10px] mt-[56.5px] pl-5">
-    <a href="/api/welcomeback" class="w-50 h-12.5 text-[#8C8C8C] bg-[#86E3CE] rounded-[30px] text-xl mt-22.25 font-bold flex items-center justify-center">続ける</a>
+    <a href="/welcomeback" class="w-50 h-12.5 text-[#8C8C8C] bg-[#86E3CE] rounded-[30px] text-xl mt-22.25 font-bold flex items-center justify-center">続ける</a>
     <p class="text-base text-[#8C8C8C] underline mt-16.5">パスワードをお忘れですか？</p>
     <p class="text-base text-[#8C8C8C] underline mt-5">新規登録はこちら</p>
   </div>
