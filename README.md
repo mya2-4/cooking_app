@@ -68,3 +68,6 @@ php artisan serve
 ```md
 -   Tailwind CSS（UI フレームワーク）
 ```
+
+-   [自炊記録アプリ　企画書（Notion）](https://app.notion.com/p/366b3ed7a1cc801e9ce4e15d36bc5657?source=copy_link)
+-   [実装ノート](https://app.notion.com/p/388b3ed7a1cc8071b1b1ce6293ea9a3b?source=copy_link)
