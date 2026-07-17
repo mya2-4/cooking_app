@@ -37,6 +37,14 @@ class PostController extends Controller {
     public function changepassword() {
         return view('post.changepassword');
     }
+    
+    public function recipies() {
+        return view('post.recipies');
+    }
+
+    public function updaterecipies() {
+        return view('post.updaterecipies');
+    }
 
     // ボタン機能
     

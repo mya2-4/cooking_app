@@ -12,3 +12,5 @@ Route::get('/register2', [PostController::class, 'register2']);
 Route::get('/nicetomeetyou', [PostController::class, 'nicetomeetyou']);
 Route::get('/myrecipe', [PostController::class, 'myrecipe']);
 Route::get('/changepassword', [PostController::class, 'changepassword']);
+Route::get('/recipies',[PostController::class,'recipies']);
+Route::get('/updaterecipies',[PostController::class,'updaterecipies']);
