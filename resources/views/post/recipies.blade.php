@@ -9,13 +9,19 @@
     </head>
 
   <body class="flex flex-col items-center">
-    <div class="fixed bg-white flex justify-between w-95">
-      <div class="return bg-[#D9D9D9] w-15 h-15"></div>
-      <div class="option bg-[#D9D9D9] w-15 h-15"></div>
+    <div class="fixed bg-white flex justify-between w-95 items-center">
+      <a href="myrecipe" class="bg-[#D9D9D9] w-15 h-15"></a>
+      <div class="font-bold">2026/06/18 thu</div>
+      <button id="option" class="bg-[#D9D9D9] w-15 h-15">
+        <!-- <div>
+          <button id="update" class=""></button>
+          <button id="delete" class=""></button>
+        </div> -->
+      </button>
     </div>
     <div class="title text-[36px] font-bold mt-20 w-full pl-10">ビビンバ</div>
     <div class="photo w-95 h-70 bg-[#D9D9D9] mt-6"></div>
-    <div class="text-[20px] px-3 my-10 w-full">
+    <div class="text-[20px] px-3 my-10">
     🥕 材料（2人前）
 ご飯
 温かいご飯　2杯分

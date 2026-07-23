@@ -46,6 +46,12 @@ class PostController extends Controller {
         return view('post.updaterecipies');
     }
 
+    // モータル確認用画面
+
+    public function modal() {
+        return view('post.modal');
+    }
+
     // ボタン機能
     
     }

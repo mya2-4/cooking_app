@@ -10,13 +10,13 @@
 
   <body class="flex flex-col items-center">
     <div class="fixed bg-white flex justify-between w-95">
-      <div class="return bg-[#D9D9D9] w-15 h-15"></div>
+      <button id="return" class="bg-[#D9D9D9] w-15 h-15"></button>
     </div>
     <div class="title text-[36px] font-bold mt-20 w-full pl-10">ビビンバ</div>
     <div>
       <div class="photo w-47.5 h-35 bg-[#D9D9D9] mt-10"></div>
-    </div>
-    <div class="resize-none border-none text-[20px] px-3 mt-10 mb-15 w-full">
+      </div>
+    <textarea class="resize-none border-none text-[20px] px-3 mt-10 mb-15 w-full h-auto">
     🥕 材料（2人前）
 ご飯
 温かいご飯　2杯分
@@ -79,7 +79,7 @@
 牛肉は豚こま肉でも代用できます。
 コチュジャンを多めに入れると、より本格的な韓国風の味わいになります。
 フライパンで軽く焼いて「石焼き風」にすると、おこげの香ばしさも楽しめます。
-    </div>
-  <a href="/recipies" class="w-50 h-12.5 text-[#8C8C8C] bg-[#86E3CE] rounded-[30px] text-xl mb-10 font-bold items-center flex justify-center">保存</a>
+    </textarea>
+  <button class="fixed bottom-0 w-50 h-12.5 text-[#8C8C8C] bg-[#86E3CE] rounded-[30px] text-xl  font-bold items-center flex justify-center mb-10">保存</button>
   </body>
 </html>

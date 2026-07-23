@@ -14,3 +14,5 @@ Route::get('/myrecipe', [PostController::class, 'myrecipe']);
 Route::get('/changepassword', [PostController::class, 'changepassword']);
 Route::get('/recipies',[PostController::class,'recipies']);
 Route::get('/updaterecipies',[PostController::class,'updaterecipies']);
+
+Route::get('/modal',[PostController::class, 'modal']);
