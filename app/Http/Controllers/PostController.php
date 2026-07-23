@@ -46,6 +46,10 @@ class PostController extends Controller {
         return view('post.updaterecipies');
     }
 
+    public function mylogs() {
+        return view('post.mylogs');
+    }
+
     // モータル確認用画面
 
     public function modal() {

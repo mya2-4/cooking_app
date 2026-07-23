@@ -25,7 +25,7 @@
             </div>
         </a>
 
-        <button class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
+        <a href="/mylogs" class="flex justify-center rounded-[20px] w-82.5 h-25 bg-[#FA897B] text-white">
             <div class="w-1/2 flex justify-center items-center">
                 <span class="font-bold text-2xl">マイログ</span>
             </div>
@@ -33,7 +33,7 @@
                 <span class="countlogs font-bold text-base">fff</span>
                 <span class="font-bold text-base">logs</span>
             </div>
-        </button>
+        </a>
     </div>
 
     <div class="w-95 h-92.5 mt-17 relative">
