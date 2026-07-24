@@ -73,3 +73,5 @@ php artisan serve
 
 -   [自炊記録アプリ　企画書（Notion）](https://app.notion.com/p/366b3ed7a1cc801e9ce4e15d36bc5657?source=copy_link)
 -   [実装ノート](https://app.notion.com/p/388b3ed7a1cc8071b1b1ce6293ea9a3b?source=copy_link)
+-   [UI デザイン](https://www.figma.com/design/3qydJOL0JCecj5OHrwrKsx/%E7%84%A1%E9%A1%8C?node-id=0-1&t=oqF4xLHG6cy0aeNt-1)
+-   [ページフロー](https://www.figma.com/board/Ln15kKbTZECGg8eOD1amIw/%E7%84%A1%E9%A1%8C?node-id=0-1&t=51WnjqvHDuKgGVSp-1)

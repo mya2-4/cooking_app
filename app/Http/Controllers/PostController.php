@@ -56,6 +56,10 @@ class PostController extends Controller {
         return view('post.modal');
     }
 
+    public function logs() {
+        return view('post.logs');
+    }
+
     // ボタン機能
     
     }
