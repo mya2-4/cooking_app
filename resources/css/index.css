@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @import "./home.css";
+
+body {
+    background-color: #778899;
+}

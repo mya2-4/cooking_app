@@ -124,7 +124,7 @@
           <div class="font-bold text-[#8C8C8C] text-[10px] mt-2">2026/06/18 thu</div>
         </a>
     </div>
-  <button class="fixed bottom-0 w-25 h-25 text-white bg-[#fa8a7b9b] rounded-[30px] text-xl  font-bold items-center flex justify-center mb-10">新規作成</button>
+  <a href="/makemyrecipe" class="fixed bottom-0 w-25 h-25 text-white bg-[#fa8a7b9b] rounded-[30px] text-xl  font-bold items-center flex justify-center mb-10">新規作成</a>
   </div>
 </body>
 </html>
