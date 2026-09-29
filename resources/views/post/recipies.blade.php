@@ -12,12 +12,7 @@
     <div class="fixed bg-white flex justify-between w-95 items-center">
       <a href="myrecipe" class="bg-[#D9D9D9] w-15 h-15"></a>
       <div class="font-bold">2026/06/18 thu</div>
-      <button id="option" class="bg-[#D9D9D9] w-15 h-15">
-        <!-- <div>
-          <button id="update" class=""></button>
-          <button id="delete" class=""></button>
-        </div> -->
-      </button>
+      <button id="option" class="bg-[#D9D9D9] w-15 h-15"></button>
     </div>
     <div class="title text-[36px] font-bold mt-20 w-full pl-10">ビビンバ</div>
     <div class="photo w-95 h-70 bg-[#D9D9D9] mt-6"></div>
