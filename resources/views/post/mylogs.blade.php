@@ -29,60 +29,22 @@
                 </div>
             </div>
         </div>
-                <div class="grid grid-cols-3 gap-0.5 w-screen mt-38 mb-12">
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a>
-                    <a href="/logs" class="bg-gray-200 h-40"></a">
+        <div class="grid grid-cols-3 gap-0.5 w-screen mt-38 mb-12">
+
+            @foreach($logs as $log)
+
+                <div>
+                    <img
+                        src="{{ asset('storage/' . $log->image_pass) }}"
+                        alt=""
+                        class="w-full h-40 object-cover"
+                    >
                 </div>
-                <button class="fixed bottom-0 w-25 h-25 text-[#8C8C8C] bg-[#FA897B] rounded-[30px] text-xl font-bold items-center flex justify-center mb-10 right-10"></button>
+
+
+            @endforeach
+
+        </div>
+        <button class="fixed bottom-0 w-25 h-25 text-[#8C8C8C] bg-[#FA897B] rounded-[30px] text-xl font-bold items-center flex justify-center mb-10 right-10"></button>
     </body>
 </html>

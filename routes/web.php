@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\LogController;
 
 Route::get('/', [PostController::class, 'home']);
 
@@ -15,6 +16,6 @@ Route::get('/changepassword', [PostController::class, 'changepassword']);
 Route::get('/recipies',[PostController::class,'recipies']);
 Route::get('/updaterecipies',[PostController::class,'updaterecipies']);
 Route::get('/mylogs',[PostController::class,'mylogs']);
-Route::get('/logs',[PostController::class,'logs']);
+Route::get('/mylogs',[LogController::class,'index']);
 Route::get('/modal',[PostController::class, 'modal']);
 Route::get('/makemyrecipe',[PostController::class,'makemyrecipe']);
