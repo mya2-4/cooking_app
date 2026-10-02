@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('dish_name')->nullable();//料理名
             $table->string('image_pass')->nullable();//写真
-            $table->string('category')->nullable();//カテゴリ
+            $table->string('category_id')->nullable();//カテゴリ
             $table->string('material')->nullable();//材料
             $table->string('note')->nullable();//メモ
             $table->timestamps();//タイムスタンプ

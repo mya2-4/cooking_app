@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\LogController;
@@ -18,4 +19,4 @@ Route::get('/updaterecipies',[PostController::class,'updaterecipies']);
 Route::get('/mylogs',[PostController::class,'mylogs']);
 Route::get('/mylogs',[LogController::class,'index']);
 Route::get('/modal',[PostController::class, 'modal']);
-Route::get('/makemyrecipe',[PostController::class,'makemyrecipe']);
+Route::get('/makemyrecipe',[CategoryController::class,'index']);
