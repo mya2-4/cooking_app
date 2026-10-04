@@ -13,11 +13,8 @@ return new class extends Migration
     {
         Schema::create('logs', function (Blueprint $table) {
             $table->id();
-            $table->string('dish_name')->nullable();//料理名
-            $table->string('image_pass')->nullable();//写真
+            $table->string('image_path')->nullable();//写真
             $table->string('category_id')->nullable();//カテゴリ
-            $table->string('material')->nullable();//材料
-            $table->string('note')->nullable();//メモ
             $table->timestamps();//タイムスタンプ
         });
     }

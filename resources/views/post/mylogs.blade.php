@@ -35,7 +35,7 @@
 
                 <div>
                     <img
-                        src="{{ asset('storage/' . $log->image_pass) }}"
+                        src="{{ asset('storage/' . $log->image_path) }}"
                         alt=""
                         class="w-full h-40 object-cover"
                     >

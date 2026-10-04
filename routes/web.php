@@ -20,3 +20,5 @@ Route::get('/mylogs',[PostController::class,'mylogs']);
 Route::get('/mylogs',[LogController::class,'index']);
 Route::get('/modal',[PostController::class, 'modal']);
 Route::get('/makemyrecipe',[CategoryController::class,'index']);
+Route::post('/makemyrecipe',[PostController::class,'storeRecipe']);
+Route::post('/category', [CategoryController::class, 'store']);

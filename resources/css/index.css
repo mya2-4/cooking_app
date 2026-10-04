@@ -1,7 +1,1 @@
 @import "tailwindcss";
-@import "./home.css";
-
-body {
-    background-color: #fafaf8;
-    overflow-x: hidden;
-}
